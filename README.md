@@ -3,8 +3,8 @@
 1. Get Redis from docker hub
 > docker run --name my-redis -p 7002:6379 -d redis
 
-2. Optional; open external console for shell
-> docker run --name my-redis -p 7002:6379 -d redis
+2. Optional; open external console for shell (the same of console from docker)
+> docker exec -it my-redis sh
 
 3. Local Redis is running on 7002 port
 > localhost:7002
