@@ -1,0 +1,8 @@
+.vs/
+RedisBlazorApp/bin/
+RedisBlazorApp/obj/
+*.user
+artifacts/
+.vscode/
+.dotnet/
+*.binlog
